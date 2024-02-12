@@ -21,8 +21,6 @@ function App() {
        */}
 
       <Contents />
-      <About />
-      <Stack />
     
 
     </main>

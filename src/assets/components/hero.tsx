@@ -14,21 +14,24 @@ export default function Hero () {
   const kevin = ['K', 'E', 'V', 'I', 'N']
   const kim = ['K', 'I', 'M']
   return (
-    <div className={`${opacity} text-white  w-full flex flex-col justify-center transition-all duration-1000 pt-16 md:pt-24 `}>
-      <div className='flex flex-col items-center pb-8'>
-        <div className='grid items-center grid-cols-5 gap-2 font-outline-black '>
+    <div className={`${opacity} text-white  w-full flex flex-col items-center justify-center transition-all duration-1000 `}>
+      <div className='flex items-center w-full max-w-5xl gap-4 p-8 pt-4 pb-4 mt-2 border-l border-black/30'>
+        <div className='grid items-center grid-cols-5 gap-2 text-black font-outline-black font-display text-7xl '>
+          {/* <span className="mt-1 text-center col-span-full">kevin</span> */}
           {
           kevin.map((letter, index) => (
-            <span className='w-full mt-2 text-4xl text-center transition-all duration-300 md:text-7xl font-display' key={index}>{letter}</span>
+            <span className='w-full mt-2 text-6xl text-center transition-all duration-300 md:text-7xl font-display' key={index}>{letter}</span>
           ))
 
           }
         </div>
 
-        <div className='grid items-center grid-cols-3 gap-2 font-outline-black '>
+        <div className='grid items-center grid-cols-3 gap-2 font-outline-black font-display text-7xl'>
+          {/* <span className="mt-1 text-center col-span-full">kim</span> */}
+
           {
           kim.map((letter, index) => (
-            <span className='mt-2 text-4xl text-center transition-all duration-300 md:text-7xl hover:text-black/90 font-display' key={index}>{letter}</span>
+            <span className='mt-2 text-6xl text-center transition-all duration-300 md:text-7xl hover:text-black/90 font-display' key={index}>{letter}</span>
           ))
 
           }
