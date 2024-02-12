@@ -6,12 +6,17 @@
 :root {
   font-family: Main, 'Courier New', Courier, monospace;
   font-weight: normal;
+  
+}
+
+body{
+  background-color: #000000;
 }
 
 
 @font-face {
   font-family: Display;
-  src: url('./assets/fonts/Qrunzvord.otf')
+  src: url('./assets/fonts/mordak.otf')
 }
 
 @font-face {
@@ -22,6 +27,10 @@
 @font-face {
   font-family: Main;
   src: url('./assets/fonts/Bender.otf')
+}
+
+.display-font-clamp {
+  font-size: clamp(3rem, 10vw, 10rem);
 }
 
 .font-display {
@@ -35,9 +44,9 @@
   0 0 20px #FFFFFF;  */
 
   text-shadow: 
-  0 0 10px #949494, 
+  0 0 4px #949494, 
   0 0 1px #ffffff, 
-  0 0 20px #bdbdbd;
+  0 0 10px #bdbdbd;
 
 }
 
@@ -52,16 +61,16 @@
   0 0 20px #000000;
 }
 
-.font-glow-white {
+.font-glow-oj {
   /* text-shadow: 
   0 0 5px #FFFFFF, 
   0 0 20px #FFFFFF;  */
 
   text-shadow: 
-  0 0 10px #ff7070, 
-  0 0 2px #ff7070, 
+  0 0 10px #ffa770, 
+  0 0 2px #ffa070, 
 
-  0 0 20px #ff0000;
+  0 0 20px #ffac4e;
 }
 
 

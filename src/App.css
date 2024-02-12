@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Display';
-  src: url('./assets/fonts/Chollays-Kingkarto.otf')
+  src: url('./assets/fonts/InterTight-VariableFont_wght.ttf')
 }
 
 @font-face {
@@ -21,14 +21,35 @@
   }
 }
 
+.font-display{
+  font-family: InterTight, Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: -.05em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .font-outline-red{
   -webkit-text-stroke: rgb(255, 178, 178) 1px;
 }
 
-.font-outline-black{
-  -webkit-text-stroke: rgb(57, 57, 57) 1px;
+.font-outline-oj{
+  -webkit-text-stroke: rgb(151, 106, 72) 1px;
 }
+
+
+.font-outline-white{
+  -webkit-text-stroke: rgb(255, 255, 255) 1px;
+}
+
+.font-outline-gray{
+  -webkit-text-stroke: rgb(63, 63, 63) 1px;
+}
+
 
 .rotate-image {
   animation: slowRotate 10s linear 0s infinite normal forwards;
+}
+
+.angled-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 10px 100%, 0% 70%, 0% 30%);
 }

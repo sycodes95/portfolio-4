@@ -24,14 +24,14 @@ export default function SocialMedia () {
 
   ]
   return (
-      <div className='flex items-center justify-center w-full border-t border-b border-black/30'>
-        <div className='grid items-center justify-center h-full grid-cols-4 gap-2 p-2 text-black rounded-sm w-fit border-black/30'>
+      <div className='flex items-center justify-center w-full border-t border-b border-white/20'>
+        <div className='grid items-center justify-center h-full grid-cols-4 gap-2 p-2 text-black rounded-sm w-fit border-white/20'>
 
         {
         socialMediaData.map((data) => (
-          <a className='relative flex items-center p-2 overflow-hidden text-black transition-all duration-300 bg-white border rounded-md border-zinc-600/40 group hover:bg-orange-300 hover:bg-opacity-50 w-fit' href={data.href} target='_blank'>
+          <a className='relative flex items-center p-2 overflow-hidden text-white transition-all duration-300 border rounded-md border-zinc-600/40 group hover:border-orange-300 hover:border-opacity-50 w-fit' href={data.href} target='_blank'>
             {data.icon}
-            <div className='absolute -top-[25%] -right-[25%]  w-14 h-14 rotate-45 border-t-[4px] border-b-[1px] border-b-orange-400 border-black group-hover:top-[100%]   group-hover:right-[100%] border-opacity-100 duration-300 transition-all'></div>
+            <div className='absolute -top-[25%] -right-[25%]  w-14 h-14 rotate-45 border-t-[4px] border-b-[1px] border-b-orange-400 border-white group-hover:top-[100%]   group-hover:right-[100%] border-opacity-100 duration-300 transition-all'></div>
           </a>
 
         ))
