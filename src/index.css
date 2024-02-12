@@ -4,14 +4,14 @@
 
 
 :root {
-  font-family: Inter, 'Courier New', Courier, monospace;
+  font-family: Main, 'Courier New', Courier, monospace;
   font-weight: normal;
 }
 
 
 @font-face {
   font-family: Display;
-  src: url('./assets/fonts/Xspace.otf')
+  src: url('./assets/fonts/Qrunzvord.otf')
 }
 
 @font-face {
@@ -19,21 +19,49 @@
   src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf')
 }
 
+@font-face {
+  font-family: Main;
+  src: url('./assets/fonts/Bender.otf')
+}
+
 .font-display {
   font-family: Display;
   
 }
 
-.font-glow {
+.font-glow-gray {
   /* text-shadow: 
   0 0 5px #FFFFFF, 
   0 0 20px #FFFFFF;  */
 
   text-shadow: 
-  0 0 10px #777575, 
-  0 0 2px #000000, 
+  0 0 10px #949494, 
+  0 0 1px #ffffff, 
+  0 0 20px #bdbdbd;
 
-  0 0 20px #808080;
+}
+
+.font-glow-black {
+  /* text-shadow: 
+  0 0 5px #FFFFFF, 
+  0 0 20px #FFFFFF;  */
+
+  text-shadow: 
+  0 0 10px #000000, 
+  0 0 1px #000000, 
+  0 0 20px #000000;
+}
+
+.font-glow-white {
+  /* text-shadow: 
+  0 0 5px #FFFFFF, 
+  0 0 20px #FFFFFF;  */
+
+  text-shadow: 
+  0 0 10px #ff7070, 
+  0 0 2px #ff7070, 
+
+  0 0 20px #ff0000;
 }
 
 

@@ -1,11 +1,17 @@
-import psychBg from '../backgrounds/psychbg.jpg'
+
 
 export default function Header () {
 
 
   return (
-    <div className="h-14 overflow-hidden sticky bg-white">
-      {/* <img className='opacity-50 blur-md' src={psychBg} alt="" /> */}
+    <div className="sticky w-full h-0 overflow-hidden">
+      {/* <div className='w-full h-[1px] bg-red-500 '></div>
+      <div className='w-full h-2 border-b border-black/30 '></div> */}
+
+
+      {/* <div className='flex items-center justify-center w-20 h-20 text-4xl font-bold text-white bg-red-500 rounded-b-xl'>
+        <SentimentVeryDissatisfiedIcon fontSize='inherit'  />
+      </div> */}
 
     </div>
   )

@@ -10,3 +10,25 @@
   src: url('./assets/fonts/Inter.ttf')
 }
 
+
+
+@keyframes slowRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.font-outline-red{
+  -webkit-text-stroke: rgb(255, 178, 178) 1px;
+}
+
+.font-outline-black{
+  -webkit-text-stroke: rgb(57, 57, 57) 1px;
+}
+
+.rotate-image {
+  animation: slowRotate 10s linear 0s infinite normal forwards;
+}
