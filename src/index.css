@@ -6,11 +6,32 @@
 :root {
   font-family: Main, 'Courier New', Courier, monospace;
   font-weight: normal;
+<<<<<<< HEAD
   
 }
 
 body{
   background-color: #000000;
+=======
+  background-color: black;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000; /* color of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1d1d1d; /* color of the scroll thumb on hover */
+>>>>>>> 937ca779f6595086aa0147e6701b8c1c2e8adc92
 }
 
 
@@ -71,6 +92,14 @@ body{
   0 0 2px #ffa070, 
 
   0 0 20px #ffac4e;
+}
+
+.box-glow-white {
+  box-shadow: 0 0 69px 69px rgba(255, 255, 255, 0.03); /* x-offset, y-offset, blur-radius, color */
+}
+
+.box-glow-white-nav {
+  box-shadow: 0 0 40px 10px  rgba(255, 255, 255, 0.05); /* x-offset, y-offset, blur-radius, color */
 }
 
 

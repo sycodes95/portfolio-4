@@ -36,6 +36,7 @@
   -webkit-text-stroke: rgb(151, 106, 72) 1px;
 }
 
+<<<<<<< HEAD
 
 .font-outline-white{
   -webkit-text-stroke: rgb(255, 255, 255) 1px;
@@ -46,10 +47,22 @@
 }
 
 
+=======
+.font-outline-grey{
+  -webkit-text-stroke: rgb(95, 95, 95) 1px;
+}
+
+>>>>>>> 937ca779f6595086aa0147e6701b8c1c2e8adc92
 .rotate-image {
   animation: slowRotate 10s linear 0s infinite normal forwards;
 }
 
+<<<<<<< HEAD
 .angled-bottom {
   clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 10px 100%, 0% 70%, 0% 30%);
+=======
+.vertical-text {
+  writing-mode: vertical-rl; /* This will orient the text vertically from top to bottom, right to left */
+  transform: rotate(180deg); /* Optional: Rotates the text 180 degrees so it reads from top to bottom */
+>>>>>>> 937ca779f6595086aa0147e6701b8c1c2e8adc92
 }
