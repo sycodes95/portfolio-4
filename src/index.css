@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: Display;
-  src: url('./assets/fonts/Qrunzvord.otf')
+  src: url('./assets/fonts/Staccto.otf')
 }
 
 @font-face {
@@ -39,7 +39,7 @@
 
 @font-face {
   font-family: Main;
-  src: url('./assets/fonts/Bender.otf')
+  src: url('./assets/fonts/Tomorrow-Regular.ttf')
 }
 
 .font-display {
@@ -88,6 +88,10 @@
 
 .box-glow-white-nav {
   box-shadow: 0 0 40px 10px  rgba(255, 255, 255, 0.05); /* x-offset, y-offset, blur-radius, color */
+}
+
+.box-glow-white-big {
+  box-shadow: 0 0 200px 200px rgba(255, 255, 255, 0.1); /* x-offset, y-offset, blur-radius, color */
 }
 
 

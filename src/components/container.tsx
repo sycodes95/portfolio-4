@@ -6,8 +6,9 @@ interface ContainerProps {
 export default function Container ( { children, className } : ContainerProps) {
 
 	return (
-		<div className={`${className} max-w-[95rem] grow w-full flex flex-col border-l items-center border-r border-white/5 box-glow-white gap-2`}>
+		<div className={`${className} bg-black max-w-[100rem] items-center grow w-full flex flex-col border-l border-r border-white/5 box-glow-white `}>
 			{children}
+			{/* <div className="absolute top-0 h-1 w-1 box-glow-white-big z-[60]"></div> */}
 		</div>
 	)
 }

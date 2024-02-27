@@ -32,6 +32,9 @@
 .font-outline-grey{
   -webkit-text-stroke: rgb(95, 95, 95) 1px;
 }
+.font-outline-white{
+  -webkit-text-stroke: rgb(255, 255, 255) 0.5px;
+}
 
 .rotate-image {
   animation: slowRotate 10s linear 0s infinite normal forwards;

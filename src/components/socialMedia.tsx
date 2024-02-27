@@ -24,8 +24,8 @@ export default function SocialMedia () {
 
   ]
   return (
-      <div className='absolute top-36 left-8 flex items-center justify-center w-fit h-fit border-t border-b border-black/30 z-50'>
-        <div className='grid items-center justify-center h-full grid-rows-4 gap-2 text-black rounded-sm w-fit border-black/30'>
+      <div className='flex flex-col items-center justify-center w-fit h-fit border-t border-b border-black/30 z-50'>
+        <div className='grid items-center justify-center h-full grid-cols-4 gap-2 text-black rounded-sm w-fit border-black/30'>
 
           {
           socialMediaData.map((data) => (
