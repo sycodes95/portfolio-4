@@ -18,8 +18,6 @@ function App() {
       {/* <Nav />
        */}
 
-    
-
     </main>
   )
 }
