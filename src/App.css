@@ -29,6 +29,10 @@
   -webkit-text-stroke: rgb(57, 57, 57) 1px;
 }
 
+.font-outline-grey{
+  -webkit-text-stroke: rgb(95, 95, 95) 1px;
+}
+
 .rotate-image {
   animation: slowRotate 10s linear 0s infinite normal forwards;
 }

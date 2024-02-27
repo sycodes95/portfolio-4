@@ -6,6 +6,7 @@
 :root {
   font-family: Main, 'Courier New', Courier, monospace;
   font-weight: normal;
+  background-color: black;
 }
 
 
@@ -21,7 +22,7 @@
 
 @font-face {
   font-family: Main;
-  src: url('./assets/fonts/Bender.otf')
+  src: url('./assets/fonts/Tomorrow-Regular.ttf')
 }
 
 .font-display {
@@ -62,6 +63,14 @@
   0 0 2px #ff7070, 
 
   0 0 20px #ff0000;
+}
+
+.box-glow-white {
+  box-shadow: 0 0 69px 69px rgba(255, 255, 255, 0.03); /* x-offset, y-offset, blur-radius, color */
+}
+
+.box-glow-white-nav {
+  box-shadow: 0 0 40px 10px  rgba(255, 255, 255, 0.05); /* x-offset, y-offset, blur-radius, color */
 }
 
 
