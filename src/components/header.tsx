@@ -17,8 +17,8 @@ export default function Header () {
       <div className="w-fit flex flex-col">
 
         <div className="flex flex-col border-b border-white/5 pb-4 items-center ">
-          <span className=" text-4xl h-8">kevin kim</span>
-          <span className="font-outline-grey text-black/0 text-lg">fullstack developer.</span>
+          <span className=" text-4xl h-8">KEVIN KIM</span>
+          <span className="font-outline-grey text-black/0 text-xl">fullstack developer.</span>
         </div>
 
       </div>
