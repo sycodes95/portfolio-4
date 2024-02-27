@@ -1,7 +1,6 @@
 import './App.css'
-import About from './components/about'
+import About from './components/about/about'
 import Container from './components/container'
-import Contents from './components/contents'
 import Header from './components/header'
 import SocialMedia from './components/socialMedia'
 
