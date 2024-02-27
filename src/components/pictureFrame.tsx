@@ -4,9 +4,9 @@ interface PictureFrameProps {
 
 export default function PictureFrame ({src} : PictureFrameProps) {
   return (
-    <div className="p-4 flex items-center justify-center w-56 h-56 relative ">
+    <div className="p-4 flex items-center justify-center w-full max-w-72 h-56 relative ">
 
-      <img className="object-cover  blur-[0.5px]  w-full h-full rounded-xl" src={src} alt="" />
+      <img className="object-cover  blur-[0.5px]  w-full  h-full rounded-xl" src={src} alt="" />
 
       <div className="absolute w-2 h-2 top-0 left-0 border-t border-l border-white rounded-tl-md"></div>
 
