@@ -3,6 +3,7 @@ import AboutRepeat from "./aboutRepeat"
 import Bio from "./bio"
 import DnaBg from "./dnaBg"
 import DnaIcon from "./dnaIcon"
+import Stack from "./stack"
 import Story from "./story"
 
 export default function About () {
@@ -13,6 +14,7 @@ export default function About () {
       <DnaBg />
       <Bio />
       <Story />
+      <Stack />
     </div>
   )
 }
