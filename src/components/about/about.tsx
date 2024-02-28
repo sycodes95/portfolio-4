@@ -1,5 +1,6 @@
 import Dna from "../../assets/icons/dna.svg"
 import AboutRepeat from "./aboutRepeat"
+import ActiveQuest from "./activeQuest"
 import Bio from "./bio"
 import DnaBg from "./dnaBg"
 import DnaIcon from "./dnaIcon"
@@ -8,17 +9,17 @@ import Story from "./story"
 
 export default function About () {
   return (
-    <div className="w-full h-full flex justify-center pt-16">
-      <div className="text-white absolute left-0">meow</div>
-      <div className="relative w-full max-w-7xl border min-h-96 rounded-xl border-white/5  box-glow-white flex flex-col gap-8 p-8 md:p-16 overflow-hidden">
+    <div className="flex justify-between w-full h-full gap-8 p-8">
+      <div className="relative flex flex-col w-full max-w-6xl gap-8 p-8 overflow-hidden border min-h-96 rounded-tl-xl rounded-br-xl border-white/5 box-glow-white md:p-16">
         <DnaIcon/>
-        <AboutRepeat />
+        {/* <AboutRepeat /> */}
         <DnaBg />
         <Bio />
         <Story />
-        <Stack />
+        {/* <Stack /> */}
       </div>
-      <div className="text-white w-full absolute right-0">meow</div>
+      <ActiveQuest />
+      
 
     </div>
 

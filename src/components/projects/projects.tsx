@@ -1,10 +1,10 @@
 export default function Projects () {
   return (
-    <div className="w-full h-full flex flex-col text-white pt-12 pb-12">
-      <span className="w-full text-center text-xs p-4">FINISHED QUESTS</span>
-      <div className="flex flex-col gap-4 items-center pl-12">
+    <div className="flex flex-col w-full h-full pt-12 pb-12 text-white">
+      <span className="w-full p-4 text-xs text-center">FINISHED QUESTS</span>
+      <div className="flex flex-col items-center gap-4 pl-12">
 
-        <div className="w-full flex gap-2 items-center">
+        <div className="flex items-center w-full gap-2">
           <span className="text-[8vw] w-fit text-center   transition-all duration-500">
             JOBTRACKR
           </span>

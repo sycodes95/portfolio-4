@@ -5,9 +5,9 @@ interface BioRowProps {
 
 export default function BioRow( { title, value } : BioRowProps  ) {
   return (
-    <div className="flex flex-col gap-1 w-full justify-center">
-      <span className="text-white text-sm border-b border-white/5 pb-2">{title}</span>
-      <span className="text-zinc-500 text-md ">
+    <div className="flex flex-col justify-center w-full gap-1">
+      <span className="pb-2 text-xs text-white border-b border-white/5">{title}</span>
+      <span className="text-sm text-zinc-500 ">
         <em>{value}</em>
       </span>
     </div>

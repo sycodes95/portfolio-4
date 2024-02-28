@@ -1,26 +1,25 @@
 export default function ActiveQuest () {
   return (
-    <div className="h-full w-full flex flex-col border-l border-yellow-300 md:max-h-72 z-50 ">
+    <div className="z-40 flex flex-col w-full h-full border-l border-yellow-300 min-[480px]:col-span-2 md:max-h-max max-w-96">
 
-      <span className="sticky h-fit w-full bg-yellow-300 text-sm p-1 pl-2 font-semibold">ACTIVE QUEST</span>
-      <span className="sticky text-sm h-fit p-1 pl-2 bg-yellow-300/25 rounded-br-lg">ROAD TO TALENTED WEB DEV</span>
+      <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-yellow-300 h-fit">ACTIVE QUEST</span>
+      <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-yellow-300/25">ROAD TO TALENTED WEB DEV</span>
 
-      <div className="w-full flex flex-col gap-2 overflow-y-auto">
+      <div className="flex flex-col w-full gap-2 overflow-y-auto">
 
         <div className="flex flex-col gap-2 p-2">
-          <span className="text-sm text-white ">QUEST NAME</span>
-          <span className="text-xl text-yellow-300 font-bold ">SOME HACKATHON MAN</span>
+          <span className="text-xs font-bold text-white ">QUEST NAME</span>
+          <span className="text-xl font-bold text-yellow-300 ">SOME HACKATHON MAN</span>
         </div>
 
         <div className="flex flex-col gap-2 p-2">
           <span className="text-sm text-white ">GOAL</span>
           <span className="text-sm text-zinc-500 ">
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT
-            WIN THE HACKATHON AND BRAG ABOUT IT SO I CAN GET A JOB GOD DAMMIT, 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est, voluptate sunt eligendi labore iste commodi, ipsa ratione laborum quam eius error iusto explicabo similique. Nam dolore aspernatur officia quas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est, voluptate sunt eligendi labore iste commodi, ipsa ratione laborum quam eius error iusto explicabo similique. Nam dolore aspernatur officia quas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est, voluptate sunt eligendi labore iste commodi, ipsa ratione laborum quam eius error iusto explicabo similique. Nam dolore aspernatur officia quas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est, voluptate sunt eligendi labore iste commodi, ipsa ratione laborum quam eius error iusto explicabo similique. Nam dolore aspernatur officia quas.
+
           </span>
         </div>
       </div>
