@@ -18,12 +18,14 @@ export default function Header () {
       <img className="absolute top-0 z-50 object-cover w-16 h-16 -translate-x-1/2 left-1/2" src={StackedSteps} alt="" />
 			<div className="absolute top-0  left-1/2 -translate-x-1/2 h-1 w-1 box-glow-white-big z-[60]"></div>
 
-      <div className="flex flex-col w-fit">
+      <div className="flex items-end gap-4 w-fit">
 
         <div className="flex flex-col items-center mt-2 border-b border-white/5 ">
           <span className="text-6xl h-11 font-display">KEVINKIM</span>
           <span className="font-outline-white font-display text-black/0 text-2xl pl-[2px]">FULLSTACK DEVELOPER.</span>
         </div>
+
+        
 
       </div>
 
