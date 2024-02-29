@@ -34,8 +34,8 @@ export default function Bio () {
         
         <div className="relative flex items-center justify-center w-full h-full md:col-span-2">
           <div className="absolute top-0 left-0 flex flex-col h-full max-w-full max-h-full min-w-full gap-2 rounded-xl">
-            <div className="pl-4 pr-4 text-xs font-semibold text-black bg-white w-fit">MY FEATURED VIDEO</div>
-            <iframe className="z-40 flex w-full h-full grow rounded-xl "  src="https://www.youtube.com/embed/zO7EnZkR55k?si=fXdS1aBMf0F22_so" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+            <div className="text-xs font-semibold text-emerald-500 w-fit">[ MY FEATURED VIDEO ]</div>
+            <iframe className="z-40 flex w-full h-full grow "  src="https://www.youtube.com/embed/zO7EnZkR55k?si=fXdS1aBMf0F22_so" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
           </div>
           
         </div>

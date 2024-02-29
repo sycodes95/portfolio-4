@@ -5,10 +5,10 @@ export interface Quest {
   repoSrc: string;
   videoDemoSrc: string;
   siteSrc: string;
-  rewards: Rewards[];
+  rewards: Reward[];
 }
 
-export type Rewards = {
+export type Reward = {
   type: "LVL UP" | "NEW SKILL",
   rewardName: string;
   icon: React.ReactNode;

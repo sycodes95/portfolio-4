@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react"
 import { Quest } from "../../types/types"
+import { statusColorMap } from "../../constants/questStatusColor";
 
 interface BorderFXProps { 
   questStatus: Quest['status'];
 }
 
-const statusColorMap: {
-  [key: string]: string;
-} = {
-  "Active": "border-red-600",
-  "Completed": "border-white/10",
-  "Paused": "border-orange-600"
+// export const statusColorMap: {
+//   [key: string]: string;
+// } = {
+//   "Active": "border-red-600",
+//   "Completed": "border-white/10",
+//   "Paused": "border-orange-600"
 
-}
+// }
 export default function BorderFX ( {questStatus} : BorderFXProps ) {
 
   const [borderColor, setBorderColor] = useState("")
