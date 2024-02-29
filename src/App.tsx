@@ -14,6 +14,9 @@ function App() {
 
       <Container className='relative overflow-hidden'>
         {/* <SocialMedia /> */}
+        <div className=''>
+
+        </div>
         <About />
         <Projects />
       </Container>
