@@ -14,12 +14,12 @@ export const quests: Quest[] = [
       {
         type: "NEW SKILL",
         rewardName: "Drizzle ORM",
-        icon: <img className="object-contain w-16 h-16 border border-white/5 " src={drizzleIcon} alt="" />
+        icon: <img className="object-contain h-16 border min-w-16 border-white/5 " src={drizzleIcon} alt="" />
       },
       {
         type: "LVL UP",
         rewardName: "TailwindCSS",
-        icon: <img className="object-contain w-16 h-16 p-2 border border-white/5 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+        icon: <img className="object-contain h-16 p-2 border min-w-16 border-white/5 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
 
       }
     ],
@@ -37,12 +37,12 @@ export const quests: Quest[] = [
       {
         type: "NEW SKILL",
         rewardName: "Drizzle ORM",
-        icon: <img className="object-contain w-16 h-16 border border-white/5" src={drizzleIcon} alt="" />
+        icon: <img className="object-contain h-16 border min-w-16 border-white/5 " src={drizzleIcon} alt="" />
       },
       {
         type: "LVL UP",
         rewardName: "TailwindCSS",
-        icon: <img className="object-contain w-16 h-16 p-2 border border-white/5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+        icon: <img className="object-contain h-16 p-2 border min-w-16 border-white/5 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
 
       }
     ],

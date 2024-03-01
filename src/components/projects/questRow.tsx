@@ -34,8 +34,21 @@ export default function QuestRow ( {quest} : QuestProps ) {
 
         <div className="flex flex-col w-full h-full col-span-2 overflow-y-auto ">
           <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ REWARDS ]</span>
-          <div className="flex items-center h-full gap-4 pt-2 overflow-y-auto text-xs text-zinc-500">
+          <div className="flex items-center h-full grid-rows-1 gap-4 pt-2 overflow-y-auto text-xs text-zinc-500">
             {
+              quest.rewards.map((reward, index) => (
+                <RewardDetails key={index} reward={reward} />
+              ))
+            }
+            {
+              quest.rewards.map((reward, index) => (
+                <RewardDetails key={index} reward={reward} />
+              ))
+            }{
+              quest.rewards.map((reward, index) => (
+                <RewardDetails key={index} reward={reward} />
+              ))
+            }{
               quest.rewards.map((reward, index) => (
                 <RewardDetails key={index} reward={reward} />
               ))
@@ -50,9 +63,9 @@ export default function QuestRow ( {quest} : QuestProps ) {
 
           <div className="flex flex-col h-full gap-1 pt-2 overflow-y-auto text-xs text-zinc-500">
 
-            <a className="p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25 " href={quest.siteSrc} target="_blank">WEBSITE</a>
-            <a className="p-1 pl-2 pr-2 text-xs text-center border border-white/5 bg-black/50" href={quest.repoSrc} target="_blank">GITHUB REPO</a>
-            <a className="p-1 pl-2 pr-2 text-xs text-center border border-white/5 bg-black/50" href={quest.videoDemoSrc} target="_blank">VIDEO DEMO</a>
+            <a className="flex items-center justify-center h-full p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25 " href={quest.siteSrc} target="_blank">WEBSITE</a>
+            <a className="flex items-center justify-center h-full p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25" href={quest.repoSrc} target="_blank">GITHUB REPO</a>
+            <a className="flex items-center justify-center h-full p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25" href={quest.videoDemoSrc} target="_blank">VIDEO DEMO</a>
 
           </div>
         </div>

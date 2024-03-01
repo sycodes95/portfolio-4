@@ -6,7 +6,7 @@ export default function Story () {
       }
         <span className="w-full p-2 text-xs font-semibold text-center border-b border-white/5">THE STORY</span>
 
-        <span className="text-xs text-center text-zinc-500">
+        <span className="text-xs text-center text-zinc-500">        
           In 2022, I decided to give coding a shot, because there was no reason for me not to. I love creating, building, and I understood tech was the future. It's almost like I couldn't avoid it and it haunted me that I still didn't know how to code. The fact that you can create anything you want with nothing but just a computer, while sitting on your ass all day appealed to me. 
         </span>
         <span className="text-xs text-center text-zinc-500">
