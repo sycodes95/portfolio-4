@@ -7,7 +7,7 @@ interface QuestProps {
   quest: Quest;
 }
 
-export default function QuestRow ( {quest} : QuestProps ) {
+export default function QuestCard ( {quest} : QuestProps ) {
 
   return (
     <div className="flex flex-col items-center w-full gap-2">

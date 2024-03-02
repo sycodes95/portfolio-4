@@ -4,7 +4,7 @@ import RewardDetails from "../rewardDetails";
 export default function ActiveQuest () {
 
   return (
-    <div className="z-40 flex flex-col w-full h-full border-l  border-red-600 min-[480px]:col-span-2 max-w-96 flex-grow ">
+    <div className="z-40 flex flex-col w-full h-full border-l  border-red-600 min-[480px]:col-span-2 md:max-w-96 flex-grow ">
       <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-red-600 h-fit">ACTIVE QUESTS</span>
       <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-red-600/25">ROAD TO TALENTED WEB DEV</span>
 

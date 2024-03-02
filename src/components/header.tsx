@@ -20,9 +20,9 @@ export default function Header () {
 
       <div className="flex items-end gap-4 w-fit">
 
-        <div className="flex flex-col items-center mt-2 border-b border-white/5 ">
-          <span className="text-6xl h-11 font-display">KEVINKIM</span>
-          <span className="font-outline-white font-display text-black/0 text-2xl pl-[2px]">FULLSTACK DEVELOPER.</span>
+        <div className="flex flex-col items-center mt-2 border-white/5 ">
+          <span className="text-4xl h-7 md:text-6xl md:h-11 font-display">KEVINKIM</span>
+          <span className="font-outline-white whitespace-nowrap font-display text-black/0 text-1xl md:text-2xl pl-[2px]">FULLSTACK DEVELOPER.</span>
         </div>
 
         

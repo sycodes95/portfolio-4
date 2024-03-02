@@ -11,11 +11,12 @@
 
 
 ::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 10px; /* width of the entire scrollbar */
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff; /* color of the tracking area */
+  background: #676767; /* color of the tracking area */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -76,10 +77,14 @@
   0 0 20px #FFFFFF;  */
 
   text-shadow: 
-  0 0 10px #ff7070, 
-  0 0 2px #ff7070, 
+  0 0 10px #ffffff, 
+  0 0 1px #000000, 
 
-  0 0 20px #ff0000;
+  0 0 30px #ffffff;
+}
+
+.logo-text-size{
+  font-size: clamp(2rem, 5vw, 10rem);
 }
 
 .box-glow-white {
@@ -95,6 +100,6 @@
 }
 
 .box-glow-red-big {
-  box-shadow: 0 0 100px 100px rgba(255, 63, 63, 0.1); /* x-offset, y-offset, blur-radius, color */
+  box-shadow: 0 0 100px 125px rgba(255, 63, 63, 0.1); /* x-offset, y-offset, blur-radius, color */
 }
 
