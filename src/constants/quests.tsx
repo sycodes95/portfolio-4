@@ -1,6 +1,7 @@
 import { Quest } from "../types/types";
 import drizzleIcon from "../assets/icons/drizzleIcon.png"
-
+import jobtrackrImage from "../assets/projects/jobtrackr.png"
+import { rewards } from "./rewards";
 
 export const quests: Quest[] = [
   {
@@ -11,21 +12,11 @@ export const quests: Quest[] = [
     videoDemoSrc: "",
     siteSrc: "https://jobtrackr.pro",
     rewards: [
-      {
-        type: "NEW SKILL",
-        rewardName: "Drizzle ORM",
-        icon: <img className="object-contain h-16 border min-w-16 border-white/5 " src={drizzleIcon} alt="" />
-      },
-      {
-        type: "LVL UP",
-        rewardName: "TailwindCSS",
-        icon: <img className="object-contain h-16 p-2 border min-w-16 border-white/5 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-
-      }
+      rewards.tailwindcss,
+      rewards.drizzleorm,
     ],
-    
+    imageSrc: jobtrackrImage 
   },
-
   {
     title: "JOBTRACKR",
     objective: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies really are.",
@@ -34,29 +25,36 @@ export const quests: Quest[] = [
     videoDemoSrc: "",
     siteSrc: "https://jobtrackr.pro",
     rewards: [
-      {
-        type: "NEW SKILL",
-        rewardName: "Drizzle ORM",
-        icon: <img className="object-contain h-16 border min-w-16 border-white/5 " src={drizzleIcon} alt="" />
-      },
-      {
-        type: "LVL UP",
-        rewardName: "TailwindCSS",
-        icon: <img className="object-contain h-16 p-2 border min-w-16 border-white/5 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-
-      }
+      rewards.tailwindcss,
+      rewards.drizzleorm,
     ],
     
   },
-  // {
-  //   questName: "JOBTRACKR",
-  //   goal: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies really are.",
-  //   Reward: [
-  //     {
-  //       type: "NEW SKILL",
-  //       rewardName: "Drizzle ORM",
-  //       icon: <img className="object-contain w-12 h-12 border-2 border-red-600 rounded-xl" src={drizzleIcon} alt="" />
-  //     }
-  //   ]
-  // }
+  {
+    title: "JOBTRACKR",
+    objective: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies really are.",
+    status: "Completed",
+    repoSrc: "https://github.com/sycodes95/jobtrackr-2",
+    videoDemoSrc: "",
+    siteSrc: "https://jobtrackr.pro",
+    rewards: [
+      rewards.tailwindcss,
+      rewards.drizzleorm,
+    ],
+    
+  },
+  {
+    title: "JOBTRACKR",
+    objective: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies really are.",
+    status: "Completed",
+    repoSrc: "https://github.com/sycodes95/jobtrackr-2",
+    videoDemoSrc: "",
+    siteSrc: "https://jobtrackr.pro",
+    rewards: [
+      rewards.tailwindcss,
+      rewards.drizzleorm,
+    ],
+    
+  },
+
 ];

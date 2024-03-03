@@ -6,6 +6,7 @@ export interface Quest {
   videoDemoSrc: string;
   siteSrc: string;
   rewards: Reward[];
+  imageSrc?: string;
 }
 
 export type Reward = {

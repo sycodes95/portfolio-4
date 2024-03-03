@@ -18,7 +18,7 @@ export default function Bio () {
 
   // <iframe width="560" height="315" src="https://www.youtube.com/embed/zO7EnZkR55k?si=fXdS1aBMf0F22_so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   return (
-    <div className="flex w-full gap-4 h-fit">
+    <div className="flex w-full gap-4 h-fit ">
       <div className=" grid w-full  gap-12 grid-cols-1 min-[480px]:grid-cols-2 min-[480px]:grid-rows-2 min-[1440px]:grid-cols-4 grid-rows-3 min-[1440px]:grid-rows-1">
         <PictureFrame src={MarineHead} />
         

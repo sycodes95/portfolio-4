@@ -8,7 +8,7 @@ export default function ActiveQuest () {
       <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-red-600 h-fit">ACTIVE QUESTS</span>
       <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-red-600/25">ROAD TO TALENTED WEB DEV</span>
 
-      <div className="flex flex-col h-full gap-4 overflow-y-auto ">
+      <div className="flex flex-col h-full overflow-y-auto ">
       {
         quests.map((quest, index) => (
           quest.status === "Active" &&
