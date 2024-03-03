@@ -4,9 +4,9 @@ import RewardDetails from "../rewardDetails";
 export default function ActiveQuest () {
 
   return (
-    <div className="z-40 flex flex-col w-full h-full border-l  border-red-600 min-[480px]:col-span-2 md:max-w-96 flex-grow ">
-      <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-red-600 h-fit">ACTIVE QUESTS</span>
-      <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-red-600/25">ROAD TO TALENTED WEB DEV</span>
+    <div className="z-40 flex flex-col w-full h-full border-l  border-yellow-500 min-[480px]:col-span-2 md:max-w-96 flex-grow ">
+      <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-yellow-500 h-fit">ACTIVE QUESTS</span>
+      <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-yellow-500/25">ROAD TO TALENTED WEB DEV</span>
 
       <div className="flex flex-col h-full overflow-y-auto ">
       {
@@ -19,7 +19,7 @@ export default function ActiveQuest () {
             }
             <div className="flex flex-col gap-2 p-2">
               <span className="w-full pb-2 text-xs font-semibold text-white border-b border-white/5 ">QUEST TITLE</span>
-              <span className="text-xl font-bold text-red-600 ">{quest.title}</span>
+              <span className="text-xl font-bold text-yellow-500 ">{quest.title}</span>
             </div>
     
             <div className="flex flex-col gap-2 p-2">

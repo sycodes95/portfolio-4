@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/about/about'
 import Container from './components/container'
+import Footer from './components/footer'
 import Header from './components/header'
 // import SocialMedia from './components/socialMedia'
 // import StackedSteps from "./assets/svgDecor/stacked-steps-haikei.svg"
@@ -19,7 +20,11 @@ function App() {
         <About />
         <SectionHeader title="ALL QUESTS" />
         <Projects />
+
       </Container>
+      <Footer />
+
+
       {/* <Nav />
        */}
 
