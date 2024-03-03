@@ -5,6 +5,9 @@ import MarineHead from "../../assets/pics/marineHead.webp"
 
 import BioRow from "./bioRow";
 import ActiveQuest from "./activeQuest";
+import { Separator } from "@/components/ui/separator"
+
+
 
 export default function Bio () {
 
@@ -18,9 +21,13 @@ export default function Bio () {
 
   // <iframe width="560" height="315" src="https://www.youtube.com/embed/zO7EnZkR55k?si=fXdS1aBMf0F22_so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   return (
-    <div className="flex w-full gap-4 h-fit ">
+    <div className="flex flex-col w-full gap-4 h-fit ">
+        <Separator className="w-full" color="white" />
+
+        <span className="w-full p-2 text-xs font-semibold text-center text-white border-b border-white/5">THE GUY</span>
       <div className=" grid w-full  gap-12 grid-cols-1 min-[480px]:grid-cols-2 min-[480px]:grid-rows-2 min-[1440px]:grid-cols-4 grid-rows-3 min-[1440px]:grid-rows-1">
         <PictureFrame src={MarineHead} />
+
         
         <div className="grid w-full h-full grid-rows-4 gap-2">
 

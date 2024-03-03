@@ -22,7 +22,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
         <div className="flex items-center justify-center w-full h-full col-span-1 text-center border min-h-36 border-white/5">
           {
             quest.imageSrc ?
-            <img className="object-cover w-full h-full transition-all border grayscale hover:cursor-pointer border-white/0 hover:border-white/10" src={quest.imageSrc} alt="" onClick={()=> window.open(quest.siteSrc)} />
+            <img className="object-cover w-full h-full transition-all border hover:cursor-pointer border-white/0 hover:border-white/10" src={quest.imageSrc} alt="" onClick={()=> window.open(quest.siteSrc)} />
             : 
             <span>picture place holder</span>
 
