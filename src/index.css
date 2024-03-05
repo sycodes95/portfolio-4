@@ -16,6 +16,18 @@
   );
 }
 
+.main-background {
+  background-color: rgb(0, 0, 0);
+  background: repeating-linear-gradient(
+    45deg,
+    #000000, /* Black */
+    #000000 10px, /* Width of the black stripe */
+    #040404 10px, /* Start of the white stripe */
+    #040404 12px /* Width of the white stripe */
+  );
+
+}
+
 
 ::-webkit-scrollbar {
   width: 10px; /* width of the entire scrollbar */
@@ -84,10 +96,10 @@
   0 0 20px #FFFFFF;  */
 
   text-shadow: 
-  0 0 10px #ffffff, 
-  0 0 1px #000000, 
+  0 0 10px #939393, 
+  0 0 1px #dbdbdb, 
 
-  0 0 30px #ffffff;
+  0 0 35px #ffffff;
 }
 
 .logo-text-size{

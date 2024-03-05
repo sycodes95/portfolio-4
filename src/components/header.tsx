@@ -14,8 +14,8 @@ export default function Header () {
   },[]);
 
   return ( 
-    <div className={`${opacity} sticky top-0 max-w-[100rem] text-white backdrop-blur-lg w-full h-fit items-center p-4 flex justify-between transition-all duration-1000 z-50 bg-black bg-opacity-50  border-r border-l border-white/[3%] md:pl-8 md:pr-8 `}>
-      <img className="absolute top-0 z-50 object-cover w-16 h-16 -translate-x-1/2 left-1/2" src={StackedSteps} alt="" />
+    <div className={`${opacity} sticky top-0 max-w-[100rem] text-white backdrop-blur-lg w-full h-fit items-center p-2 flex justify-between transition-all duration-1000 z-50 bg-black bg-opacity-50  border-r border-l border-white/[3%] md:pl-8 md:pr-8 `}>
+      <img className="absolute top-0 z-50 object-cover w-8 h-8 -translate-x-1/2 md:w-16 md:h-16 left-1/2" src={StackedSteps} alt="" />
 			<div className="absolute top-0  left-1/2 -translate-x-1/2 h-1 w-1 box-glow-white-big z-[60]"></div>
 
       <div className="flex items-end gap-4 w-fit">

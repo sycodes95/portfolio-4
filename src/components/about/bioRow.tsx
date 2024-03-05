@@ -6,8 +6,8 @@ interface BioRowProps {
 export default function BioRow( { title, value } : BioRowProps  ) {
   return (
     <div className="flex flex-col justify-center w-full gap-1">
-      <span className="pb-2 text-xs text-white border-b border-white/5">[ {title} ]</span>
-      <span className="text-xs text-yellow-400 ">
+      <span className="pb-2 text-xs border-b text-zinc-500 border-white/5">[ {title} ]</span>
+      <span className="text-xs text-white ">
         {value}
       </span>
     </div>

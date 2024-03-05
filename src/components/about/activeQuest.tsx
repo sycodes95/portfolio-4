@@ -5,7 +5,7 @@ import GlowThing from "./glowThing";
 export default function ActiveQuest () {
 
   return (
-    <div className="z-40 flex flex-col w-full h-full border-l  border-yellow-500 min-[480px]:col-span-2 md:max-w-96 flex-grow relative ">
+    <div className="z-40 flex flex-col w-full h-full border-l  border-yellow-500 min-[480px]:col-span-2 md:max-w-96 flex-grow relative overflow-hidden ">
       <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-yellow-500 h-fit">ACTIVE QUESTS</span>
       <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-yellow-500/25">ROAD TO TALENTED WEB DEV</span>
 			<GlowThing />
@@ -34,7 +34,7 @@ export default function ActiveQuest () {
             <div className="flex flex-col h-full gap-2 p-2">
               <span className="pb-2 text-xs font-semibold text-white border-b border-white/5">Reward</span>
 
-              <div className="flex flex-wrap items-center gap-4">
+              <div className="flex items-center gap-4 overflow-x-auto ">
                 {
                   quest.rewards.map((reward) => (
                     <RewardDetails reward={reward} />

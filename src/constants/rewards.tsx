@@ -5,7 +5,7 @@ import convexIcon from "../assets/icons/convex.png"
 import nextjsIcon from "../assets/icons/nextjs.png"
 
 
-const rewardImgClasses = "object-contain h-16 transition-all border hover:cursor-pointer min-w-16 border-white/5 hover:border-white/10"
+const rewardImgClasses = "object-contain h-12 min-w-12 md:h-16 transition-all border hover:cursor-pointer md:min-w-16 border-white/5 hover:border-white/10"
           
 export const rewards: {
   tailwindcss: Reward;
@@ -49,7 +49,7 @@ export const rewards: {
   nextjs: {
     type: "",
     rewardName: "Next.Js",
-    icon: <img className={`${rewardImgClasses} bg-white/5 p-2`} src={nextjsIcon} 
+    icon: <img className={`${rewardImgClasses} bg-white p-2 `} src={nextjsIcon} 
     onClick={()=> window.open("https://react.dev/")}
     />
   },

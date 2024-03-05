@@ -5,7 +5,7 @@ interface PictureFrameProps {
 export default function PictureFrame ({src} : PictureFrameProps) {
   return (
 
-    <div className="flex flex-col items-center gap-4">
+    <div className="flex flex-col items-center gap-4 p-4 min-[480px]:border-r md:p-8 border-white/5">
       <div className="relative flex flex-col items-center justify-center w-full h-56 p-4 max-w-72 ">
 
         <img className="blur-[0.5px] object-top object-cover bg-white bg-opacity-25 grayscale  w-full  h-full " src={src} alt="" />
