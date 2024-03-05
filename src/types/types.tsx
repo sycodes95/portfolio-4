@@ -10,7 +10,7 @@ export interface Quest {
 }
 
 export type Reward = {
-  type: "LVL UP" | "NEW SKILL",
+  type: "LVL UP" | "NEW SKILL" | "",
   rewardName: string;
   icon: React.ReactNode;
 };

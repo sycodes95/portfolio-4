@@ -36,6 +36,10 @@
   -webkit-text-stroke: rgb(255, 255, 255) 0.5px;
 }
 
+.font-outline-yellow{
+  -webkit-text-stroke: rgb(186, 161, 0) 1px;
+}
+
 .rotate-image {
   animation: slowRotate 10s linear 0s infinite normal forwards;
 }

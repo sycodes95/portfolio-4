@@ -1,5 +1,5 @@
 import { statusColorMap } from "../../constants/questStatusColor";
-import { Quest, Reward } from "../../types/types";
+import { Quest } from "../../types/types";
 import RewardDetails from "../rewardDetails";
 import BorderFX from "./borderFX";
 
@@ -13,7 +13,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
     <div className="flex flex-col items-center w-full gap-2">
       <div className={`relative flex items-center justify-between p-4 w-full h-10 border-l border-r ${statusColorMap[quest.status]}`}>
         <span className="text-xs">{quest.title}</span>
-        <span className={`text-zinc-500 text-xs`}>{quest.status}</span>
+        <span className={` text-xs ${statusColorMap[quest.status]}`}>{quest.status}</span>
 
         <BorderFX questStatus={quest.status}/>
       </div>
@@ -46,28 +46,16 @@ export default function QuestCard ( {quest} : QuestProps ) {
                 <RewardDetails key={index} reward={reward} />
               ))
             }
-            {
-              quest.rewards.map((reward, index) => (
-                <RewardDetails key={index} reward={reward} />
-              ))
-            }{
-              quest.rewards.map((reward, index) => (
-                <RewardDetails key={index} reward={reward} />
-              ))
-            }{
-              quest.rewards.map((reward, index) => (
-                <RewardDetails key={index} reward={reward} />
-              ))
-            }
+            
             
           </div>
         </div>
 
-        <div className="flex flex-col w-full h-full col-span-1 overflow-y-auto ">
+        <div className="flex flex-col w-full h-full col-span-1 ">
           
           <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ LINKS ]</span>
 
-          <div className="flex flex-col h-full gap-1 pt-2 overflow-y-auto text-xs text-zinc-500">
+          <div className="flex flex-col h-full gap-1 pt-2 text-xs text-zinc-500">
 
             <a className="flex items-center justify-center h-full p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25 " href={quest.siteSrc} target="_blank">WEBSITE</a>
             <a className="flex items-center justify-center h-full p-1 pl-2 pr-2 text-xs text-center transition-all border border-white/5 bg-black/50 hover:bg-black/25" href={quest.repoSrc} target="_blank">GITHUB REPO</a>

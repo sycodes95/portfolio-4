@@ -1,12 +1,14 @@
 import { quests } from "../../constants/quests";
 import RewardDetails from "../rewardDetails";
+import GlowThing from "./glowThing";
 
 export default function ActiveQuest () {
 
   return (
-    <div className="z-40 flex flex-col w-full h-full border-l  border-yellow-500 min-[480px]:col-span-2 md:max-w-96 flex-grow ">
+    <div className="z-40 flex flex-col w-full h-full border-l  border-yellow-500 min-[480px]:col-span-2 md:max-w-96 flex-grow relative ">
       <span className="sticky w-full p-1 pl-2 text-xs font-semibold bg-yellow-500 h-fit">ACTIVE QUESTS</span>
       <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-yellow-500/25">ROAD TO TALENTED WEB DEV</span>
+			<GlowThing />
 
       <div className="flex flex-col h-full overflow-y-auto ">
       {

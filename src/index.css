@@ -110,3 +110,7 @@
   box-shadow: 0 0 100px 125px rgba(255, 63, 63, 0.1); /* x-offset, y-offset, blur-radius, color */
 }
 
+.box-glow-yellow-big {
+  box-shadow: 0 0 100px 125px rgba(251, 255, 0, 0.1); /* x-offset, y-offset, blur-radius, color */
+}
+

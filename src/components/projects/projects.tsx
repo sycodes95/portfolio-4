@@ -3,8 +3,6 @@ import { Reward } from "../../types/types";
 import BorderFX from "./borderFX";
 import QuestCard from "./questCard"
 
-
-
 export default function Projects () {
   
   return (

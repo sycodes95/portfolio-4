@@ -12,11 +12,11 @@ import { Separator } from "@/components/ui/separator"
 export default function Bio () {
 
   const bioData = [
-    { title: 'NAME', value: 'Kevin Kim'},
-    { title: 'ALIAS', value: 'Untalented Web Dev'},
+    { title: 'NAME', value: 'KEVIN KIM'},
+    { title: 'ALIAS', value: 'UNTALENTED WEB DEV'},
 
-    { title: 'ORIGIN', value: 'Los Angeles, CA'},
-    { title: 'OCCUPATION', value: 'Fullstack Developer'},
+    { title: 'ORIGIN', value: 'LOS ANGELES, CA'},
+    { title: 'OCCUPATION', value: 'FULLSTACK DEVELOPER'},
   ];
 
   // <iframe width="560" height="315" src="https://www.youtube.com/embed/zO7EnZkR55k?si=fXdS1aBMf0F22_so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
