@@ -1,11 +1,7 @@
 import PictureFrame from "../pictureFrame";
-import MyPic from "../../assets/pics/selfie.jpg"
-import Silhoutte from "../../assets/pics/silhoutte.png"
 import MarineHead from "../../assets/pics/marineHead.webp"
 
 import BioRow from "./bioRow";
-import ActiveQuest from "./activeQuest";
-import { Separator } from "@/components/ui/separator"
 import DnaIcon from "./dnaIcon";
 
 

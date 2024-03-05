@@ -15,13 +15,15 @@ interface QuestProps {
 export default function QuestCard ( {quest} : QuestProps ) {
 
   return (
-    <div className="flex flex-col items-center w-full gap-2">
+    <div className="flex flex-col items-center w-full">
       <div className={`relative flex items-center justify-between p-4 w-full h-10 border-l border-r ${statusColorMap[quest.status]}`}>
         <span className="text-xs font-semibold">{quest.title}</span>
         <span className={` text-xs ${statusColorMap[quest.status]}`}>{quest.status}</span>
 
         <BorderFX questStatus={quest.status}/>
       </div>
+
+      <div className="justify-center w-1 h-2 border-l border-white/10"></div>
 
       <div className="grid w-full h-full grid-cols-3 gap-4 p-4 bg-white/5 ">
         <div className="flex items-center justify-center w-full h-full col-span-3 text-center border md:col-span-1 min-h-36 border-white/5">
@@ -55,6 +57,8 @@ export default function QuestCard ( {quest} : QuestProps ) {
             
           </div>
         </div>
+
+
 
         <div className="flex flex-col w-full h-full col-span-3 md:col-span-1 ">
           
@@ -93,7 +97,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
       </div>
 
       <div className="flex justify-end w-full h-8">
-        <span className="flex items-center p-2 text-xs border-b border-l border-r border-white/10 w-fit">
+        <span className="flex items-center p-2 text-xs border-b border-r border-white/5 w-fit">
           {quest.timeline}
         </span>
       </div>
