@@ -39,7 +39,8 @@ export const quests: Quest[] = [
       },
       
     ],
-    imageSrc: jobtrackrImage 
+    imageSrc: jobtrackrImage,
+    timeline: "JAN 2024 - FEB 2024"
   },
   {
     title: "POLYGLOT PAL",
@@ -66,7 +67,34 @@ export const quests: Quest[] = [
       type: "LVL UP"
       },
     ],
-    imageSrc: polyglotpalImage 
+    imageSrc: polyglotpalImage,
+    timeline: "SEP 2023 - JAN 2024"
+  },
+  
+  {
+    title: "ZEN ROOFING CORP [ FREELANCE ]",
+    objective: "Design and develop a user-friendly website for a local roofing company, enhance their digital presence, customer interaction capabilities, and build trust through a professional design.",
+    status: "Completed",
+    repoSrc: "https://github.com/sycodes95/zen-roofing",
+    videoDemoSrc: "",
+    siteSrc: "https://zenroofingcorp.com/",
+    rewards: [
+      {
+        ...rewards.nextjs,
+        type: "LVL UP"
+      },
+      {
+        ...rewards.tailwindcss,
+        type: "LVL UP"
+      },
+      {
+        ...rewards.typescript,
+        type: "LVL UP"
+      },
+    ],
+    imageSrc: zenroofingImage,
+    timeline: "NOV 2023 - JAN 2024"
+    
   },
   {
     title: "DAYNESTMETRICS",
@@ -94,31 +122,8 @@ export const quests: Quest[] = [
       }
       
     ],
-    imageSrc: daynestmetricsImage 
-  },
-  {
-    title: "ZEN ROOFING CORP [ FREELANCE ]",
-    objective: "Design and develop a user-friendly website for a local roofing company, enhance their digital presence, customer interaction capabilities, and build trust through a professional design.",
-    status: "Completed",
-    repoSrc: "https://github.com/sycodes95/zen-roofing",
-    videoDemoSrc: "",
-    siteSrc: "https://zenroofingcorp.com/",
-    rewards: [
-      {
-        ...rewards.nextjs,
-        type: "LVL UP"
-      },
-      {
-        ...rewards.tailwindcss,
-        type: "LVL UP"
-      },
-      {
-        ...rewards.typescript,
-        type: "LVL UP"
-      },
-    ],
-    imageSrc: zenroofingImage 
-    
+    imageSrc: daynestmetricsImage,
+    timeline: "OCT 2023 - DEC 2023"
   },
 
 ];

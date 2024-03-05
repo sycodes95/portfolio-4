@@ -11,13 +11,14 @@ export default function Story () {
           <span className="text-xs text-center text-white">        
             In 2022, I decided to give coding a shot, because there was no reason for me not to. I love creating, building, and I understood tech was the future. It's almost like I couldn't avoid it and it haunted me that I still didn't know how to code. The fact that you can create anything you want with nothing but just a computer appealed to me. 
           </span>
+          
           <span className="text-xs text-center text-white">
-            So I got into web development because of the visual aspect of it. I loved how you can get instant visual feedback from your code changes, and there's some creative elements that go into building the UI / Front-end which I really enjoy.
+            So I got into web development specifically because of the visual aspect of it. I loved how you can get instant visual feedback from your code changes, and there's some creative elements that go into building the UI / Front-end which I really enjoy.
           </span>
 
           <span className="text-xs text-center text-white">
             That being said, I wanted to be capable of building a full stack application and deploying it all by myself so that's what I did.
-            The UI and front-end presentation satisfies my creative need, while the process of programming a full-stack application itself keeps me glued to the computer screen, because bugs will not defeat me.
+            The UI and front-end presentation satisfies my creative need, while the process of programming a full-stack application itself keeps me glued to the computer screen.
           </span>
         </div>
 

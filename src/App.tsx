@@ -17,9 +17,7 @@ function App() {
 
       <Container className='relative gap-8 overflow-hidden'>
         {/* <SocialMedia /> */}
-        <SectionHeader title="PROFILE" />
         <About />
-        <SectionHeader title="ALL QUESTS" />
         <Projects />
 
       </Container>
