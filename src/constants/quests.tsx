@@ -11,7 +11,7 @@ import { rewards } from "./rewards";
 export const quests: Quest[] = [
   {
     title: "JOBTRACKR",
-    objective: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies really are.",
+    objective: "I wanted to create a simple way to track job applications, and also view metrics and useful data visualizations in order to help the user see how effective their job hunting strategies are.",
     status: "Active",
     repoSrc: "https://github.com/sycodes95/jobtrackr-2",
     videoDemoSrc: "https://www.youtube.com/watch?v=1suhJa5K7VY",

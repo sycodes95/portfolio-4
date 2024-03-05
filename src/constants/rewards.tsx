@@ -50,7 +50,7 @@ export const rewards: {
     type: "",
     rewardName: "Next.Js",
     icon: <img className={`${rewardImgClasses} bg-white p-2 `} src={nextjsIcon} 
-    onClick={()=> window.open("https://react.dev/")}
+    onClick={()=> window.open("https://nextjs.org/")}
     />
   },
   postgresql: {
