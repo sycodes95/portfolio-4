@@ -3,10 +3,7 @@ import About from './components/about/about'
 import Container from './components/container'
 import Footer from './components/footer'
 import Header from './components/header'
-// import SocialMedia from './components/socialMedia'
-// import StackedSteps from "./assets/svgDecor/stacked-steps-haikei.svg"
 import Projects from './components/projects/projects'
-import SectionHeader from './components/sectionHeader'
 import "./globals.css"
 
 function App() {

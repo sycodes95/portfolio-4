@@ -11,17 +11,20 @@ export default function PictureFrame ({src} : PictureFrameProps) {
         <img className="blur-[0.5px] object-top object-cover bg-white bg-opacity-25 grayscale  w-full  h-full " src={src} alt="" />
 
 
-        <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white "></div>
+        <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/10 "></div>
 
-        <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white "></div>
+        <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/10 "></div>
         
-        <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white "></div>
+        <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white/10 "></div>
 
-        <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white "></div>
+        <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/10 "></div>
 
       </div>
 
-      <span className="text-xs text-center text-white "><em>"This is my portfolio, there's many like it but this one is mine."</em></span>
+      <span className="flex items-center gap-4 text-xs text-center text-white ">
+        <div className="w-1 h-1 bg-green-400 rounded-full box-glow-green-small"></div>
+        Available
+      </span>
 
     </div>
     

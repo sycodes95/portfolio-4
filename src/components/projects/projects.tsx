@@ -1,7 +1,5 @@
 import { quests } from "../../constants/quests";
-import { Reward } from "../../types/types";
 import SectionHeader from "../sectionHeader";
-import BorderFX from "./borderFX";
 import QuestCard from "./questCard"
 
 export default function Projects () {

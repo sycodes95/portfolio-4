@@ -4,7 +4,6 @@ import RewardDetails from "../rewardDetails";
 import BorderFX from "./borderFX";
 
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LanguageIcon from '@mui/icons-material/Language';
 

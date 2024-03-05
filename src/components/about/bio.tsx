@@ -1,9 +1,8 @@
 import PictureFrame from "../pictureFrame";
-import MarineHead from "../../assets/pics/marineHead.webp"
 
 import BioRow from "./bioRow";
 import DnaIcon from "./dnaIcon";
-
+import scvGif from "../../assets/pics/scv.webp"
 
 
 export default function Bio () {
@@ -25,7 +24,7 @@ export default function Bio () {
         <DnaIcon/>
         // THE BIO</span>
       <div className=" grid w-full  grid-cols-1 min-[480px]:grid-cols-2 min-[480px]:grid-rows-2 min-[1440px]:grid-cols-4 grid-rows-3 min-[1440px]:grid-rows-1">
-        <PictureFrame src={MarineHead} />
+        <PictureFrame src={scvGif} />
 
         <div className="flex flex-col justify-between p-4  min-[480px]:border-r md:p-8 border-white/5">
 

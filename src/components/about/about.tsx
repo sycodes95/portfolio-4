@@ -2,7 +2,6 @@ import SectionHeader from "../sectionHeader"
 import ActiveQuest from "./activeQuest"
 import Bio from "./bio"
 import DnaBg from "./dnaBg"
-import DnaIcon from "./dnaIcon"
 import Story from "./story"
 
 export default function About () {
