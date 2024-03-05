@@ -12,7 +12,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
   return (
     <div className="flex flex-col items-center w-full gap-2">
       <div className={`relative flex items-center justify-between p-4 w-full h-10 border-l border-r ${statusColorMap[quest.status]}`}>
-        <span className="text-xs">{quest.title}</span>
+        <span className="text-xs font-semibold">{quest.title}</span>
         <span className={` text-xs ${statusColorMap[quest.status]}`}>{quest.status}</span>
 
         <BorderFX questStatus={quest.status}/>
