@@ -46,7 +46,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
 
         <div className="flex flex-col w-full h-full col-span-3 overflow-y-auto md:col-span-2 ">
           <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ REWARDS ]</span>
-          <div className="flex items-center h-full grid-rows-1 gap-4 pt-2 overflow-y-auto text-xs text-zinc-500">
+          <div className="flex items-center h-full gap-4 pt-2 overflow-y-auto text-xs text-zinc-500">
             {
               quest.rewards.map((reward, index) => (
                 <RewardDetails key={index} reward={reward} />
