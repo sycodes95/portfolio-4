@@ -14,7 +14,6 @@ export default function ActiveQuest () {
       <span className="sticky p-1 pl-2 text-xs rounded-br-lg h-fit bg-yellow-500/25">ROAD TO TALENTED WEB DEV</span>
 			<GlowThing />
 
-
       <div className="flex flex-col h-full overflow-y-auto ">
       {
         quests.map((quest, index) => (

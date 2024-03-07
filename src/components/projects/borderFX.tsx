@@ -6,14 +6,6 @@ interface BorderFXProps {
   questStatus: Quest['status'];
 }
 
-// export const statusColorMap: {
-//   [key: string]: string;
-// } = {
-//   "Active": "border-red-600",
-//   "Completed": "border-white/10",
-//   "Paused": "border-orange-600"
-
-// }
 export default function BorderFX ( {questStatus} : BorderFXProps ) {
 
   const [borderColor, setBorderColor] = useState("")
@@ -23,7 +15,6 @@ export default function BorderFX ( {questStatus} : BorderFXProps ) {
   },[questStatus])
 
   useEffect(() => {
-    console.log(borderColor);
   },[borderColor])
   return (
     
