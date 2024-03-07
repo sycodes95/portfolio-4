@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
 import SocialMedia from "./socialMedia";
 import StackedSteps from "../assets/svgDecor/stacked-steps-haikei.svg"
 import useFullOpacity from "@/hooks/useFullOpacity";
 
-type Opacity = 'opacity-0' | 'opacity-100' 
 
 export default function Header () {
 
