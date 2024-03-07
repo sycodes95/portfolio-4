@@ -10,7 +10,6 @@ export default function PictureFrame ({src} : PictureFrameProps) {
 
         <img className="blur-[0.5px] object-top object-cover bg-white bg-opacity-25 grayscale  w-full  h-full " src={src} alt="" />
 
-
         <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/10 "></div>
 
         <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/10 "></div>

@@ -57,6 +57,7 @@ export const rewards: {
     type: "",
     rewardName: "PostgreSQL",
     icon: <img className={`${rewardImgClasses} p-2`} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" 
+    onClick={()=> window.open("https://www.postgresql.org/")}
     />
   }
 }
