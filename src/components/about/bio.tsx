@@ -2,7 +2,6 @@ import PictureFrame from "../pictureFrame";
 
 import BioRow from "./bioRow";
 import DnaIcon from "./dnaIcon";
-import scvGif from "../../assets/pics/scv.webp"
 import ytLogo from "../../assets/logo/youtubelogo.png"
 
 
