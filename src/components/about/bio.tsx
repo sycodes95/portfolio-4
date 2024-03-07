@@ -26,7 +26,7 @@ export default function Bio () {
       <div className=" grid w-full  grid-cols-1 min-[480px]:grid-cols-2 min-[480px]:grid-rows-2 min-[1440px]:grid-cols-4 grid-rows-3 min-[1440px]:grid-rows-1">
         <PictureFrame src={scvGif} />
 
-        <div className="flex flex-col justify-between p-4  min-[480px]:border-r md:p-8 border-white/5">
+        <div className="flex flex-col justify-between p-4  min-[1440px]:border-r md:p-8 border-white/5">
 
           {
           bioData.map((data) => (
