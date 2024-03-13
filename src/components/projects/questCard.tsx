@@ -9,15 +9,16 @@ import LanguageIcon from '@mui/icons-material/Language';
 
 interface QuestProps {
   quest: Quest;
+  questRef: React.MutableRefObject<HTMLDivElement | null>;
 }
 
-export default function QuestCard ( {quest} : QuestProps ) {
-
+export default function QuestCard ( {quest, questRef} : QuestProps ) {
+  
   return (
-    <div className="flex flex-col items-center w-full">
+    <div ref={questRef} className="flex flex-col items-center w-full">
       <div className={`relative flex items-center justify-between p-4 w-full h-10 border-l border-r ${statusColorMap[quest.status]}`}>
-        <span className="text-xs font-semibold">{quest.title}</span>
-        <span className={` text-xs ${statusColorMap[quest.status]}`}>{quest.status}</span>
+        <span className="text-sm font-semibold">{quest.title}</span>
+        <span className={` text-sm ${statusColorMap[quest.status]}`}>{quest.status}</span>
 
         <BorderFX questStatus={quest.status}/>
       </div>
@@ -36,8 +37,8 @@ export default function QuestCard ( {quest} : QuestProps ) {
         </div>
 
         <div className="flex flex-col w-full h-full col-span-3 overflow-y-auto md:col-span-2 ">
-          <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ OBJECTIVE ]</span>
-          <div className="h-full pt-2 overflow-y-auto text-xs text-zinc-500">
+          <span className="w-full pb-2 text-sm border-b border-white/5 h-fit">[ OBJECTIVE ]</span>
+          <div className="h-full pt-2 overflow-y-auto text-sm text-zinc-500">
             {
               quest.objective
             }
@@ -45,8 +46,8 @@ export default function QuestCard ( {quest} : QuestProps ) {
         </div>
 
         <div className="flex flex-col w-full h-full col-span-3 overflow-y-auto md:col-span-2 ">
-          <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ REWARDS ]</span>
-          <div className="flex items-center h-full gap-4 pt-2 overflow-y-auto text-xs text-zinc-500">
+          <span className="w-full pb-2 text-sm border-b border-white/5 h-fit">[ REWARDS ]</span>
+          <div className="flex items-center h-full gap-4 pt-2 overflow-y-auto text-sm text-zinc-500">
             {
               quest.rewards.map((reward, index) => (
                 <RewardDetails key={index} reward={reward} />
@@ -61,11 +62,11 @@ export default function QuestCard ( {quest} : QuestProps ) {
 
         <div className="flex flex-col w-full h-full col-span-3 md:col-span-1 ">
           
-          <span className="w-full pb-2 text-xs border-b border-white/5 h-fit">[ LINKS ]</span>
+          <span className="w-full pb-2 text-sm border-b border-white/5 h-fit">[ LINKS ]</span>
 
-          <div className="grid h-full min-[480px]:grid-cols-1  grid-rows-1 gap-1 pt-2 text-xs md:grid-cols-1 md:grid-rows-3 text-zinc-500">
+          <div className="grid h-full min-[480px]:grid-cols-1  grid-rows-1 gap-1 pt-4 text-sm md:grid-cols-1 md:grid-rows-3 text-zinc-500">
 
-            <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-xs text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25 " href={quest.siteSrc} target="_blank">
+            <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-sm text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25 " href={quest.siteSrc} target="_blank">
               <LanguageIcon className="text-zinc-800" fontSize='inherit' />
               <span>WEBSITE</span>
               <LanguageIcon className="text-zinc-800" fontSize='inherit' />
@@ -73,7 +74,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
             </a>
             {
               quest.repoSrc &&
-              <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-xs text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25" href={quest.repoSrc} target="_blank">
+              <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-sm text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25" href={quest.repoSrc} target="_blank">
                 <GitHubIcon className="text-zinc-800" fontSize='inherit'/>  
                 <span>GITHUB REPO</span>
                 <GitHubIcon className="text-zinc-800" fontSize='inherit'/>  
@@ -83,7 +84,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
             }
             {
               quest.videoDemoSrc &&
-              <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-xs text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25" href={quest.videoDemoSrc} target="_blank">
+              <a className="flex items-center justify-between h-full p-1 pl-2 pr-2 text-sm text-center transition-all border min-h-8 border-white/5 bg-black/50 hover:bg-black/25" href={quest.videoDemoSrc} target="_blank">
                 <YouTubeIcon className="text-zinc-800" fontSize='inherit'/>  
                 <span>VIDEO DEMO</span>
                 <YouTubeIcon className="text-zinc-800" fontSize='inherit'/>  
@@ -96,7 +97,7 @@ export default function QuestCard ( {quest} : QuestProps ) {
       </div>
 
       <div className="flex justify-end w-full h-8">
-        <span className="flex items-center p-2 text-xs border-b border-r border-white/5 w-fit">
+        <span className="flex items-center p-2 text-sm border-b border-r border-white/5 w-fit">
           {quest.timeline}
         </span>
       </div>

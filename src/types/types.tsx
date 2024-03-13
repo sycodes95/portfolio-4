@@ -1,3 +1,5 @@
+import { QuestTitle } from "@/constants/quests";
+
 export interface Quest {
   title: string;
   objective: string;
@@ -14,4 +16,8 @@ export type Reward = {
   type: "LVL UP" | "NEW SKILL" | "",
   rewardName: string;
   icon: React.ReactNode;
+};
+
+export type QuestRefs = {
+  [K in QuestTitle]: React.MutableRefObject<HTMLDivElement | null>;
 };

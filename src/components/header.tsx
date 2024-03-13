@@ -1,14 +1,35 @@
 import SocialMedia from "./socialMedia";
 import StackedSteps from "../assets/svgDecor/stacked-steps-haikei.svg"
 import useFullOpacity from "@/hooks/useFullOpacity";
+import { useEffect, useState } from "react";
 
 
 export default function Header () {
 
   const { opacity } = useFullOpacity(); 
 
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const [showHeader, setShowHeader] = useState(true)
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY < lastScrollY) {
+        setShowHeader(true);
+      } else if (currentScrollY > lastScrollY) {
+        setShowHeader(false);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener("scroll", handleScroll);
+  },[lastScrollY])
+
   return ( 
-    <div className={`${opacity} sticky top-0 max-w-[100rem] text-white backdrop-blur-lg w-full h-fit items-center p-2 flex justify-between transition-all duration-1000 z-50 bg-black bg-opacity-50  border-r border-l border-white/[3%] md:p-8 md:pt-4 md:pb-4 `}>
+    <div className={`${opacity} sticky ${showHeader ? "top-0" : "-top-32"} max-w-[100rem] text-white backdrop-blur-lg w-full h-fit items-center p-2 flex justify-between transition-all duration-1000 z-50 bg-black bg-opacity-50  border-r border-l border-white/[3%] md:p-8 md:pt-4 md:pb-4 `}>
       <img className="absolute top-0 z-50 object-cover w-4 h-8 -translate-x-1/2 md:w-8 md:h-16 left-1/2" src={StackedSteps} alt="" />
       
 			<div className="absolute top-0  left-1/2 -translate-x-1/2 h-1 w-1 box-glow-white-big z-[60]"></div>

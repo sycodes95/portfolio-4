@@ -8,6 +8,8 @@ import zenroofingImage from "../assets/projects/zenroofing.png"
 
 import { rewards } from "./rewards";
 
+export type QuestTitle = (typeof quests)[number]['title'];
+
 export const quests: Quest[] = [
   {
     title: "JOBTRACKR",
@@ -125,5 +127,6 @@ export const quests: Quest[] = [
     imageSrc: daynestmetricsImage,
     timeline: "OCT 2023 - DEC 2023"
   },
+  
 
 ];
