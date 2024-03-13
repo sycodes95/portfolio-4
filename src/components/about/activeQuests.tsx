@@ -21,7 +21,7 @@ export default function ActiveQuests () {
               {quest.objective}
             </span>
 
-            <button className="w-full h-8 text-white bg-black border border-white/10">Go To Project </button>
+            <button className="w-full h-8 text-white bg-black border border-white/10 hover:bg-white/20">Go To Quest </button>
           </AccordionContent>
         </AccordionItem>
         ))
