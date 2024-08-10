@@ -22,8 +22,8 @@ export default function PictureFrame ({src} : PictureFrameProps) {
       </div>
 
       <span className="flex items-center gap-4 text-xs text-center text-white ">
-        <div className="w-1 h-1 bg-green-400 rounded-full box-glow-green-small"></div>
-        Available
+        <div className="w-1 h-1 bg-red-600 rounded-full box-glow-row-small"></div>
+        Unavailable
       </span>
 
     </div>

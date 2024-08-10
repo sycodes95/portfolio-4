@@ -130,3 +130,7 @@
   box-shadow: 0 0 7px 7px rgba(119, 255, 0, 0.1); /* x-offset, y-offset, blur-radius, color */
 }
 
+.box-glow-row-small {
+  box-shadow: 0 0 7px 7px rgba(255, 0, 0, 0.1); /* x-offset, y-offset, blur-radius, color */
+}
+
